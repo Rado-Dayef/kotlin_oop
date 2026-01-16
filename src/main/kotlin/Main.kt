@@ -27,3 +27,24 @@
 //    }
 //    println("----------------------------------------------------------------")
 //}
+//
+// ToDo: Uncomment the code below to test inheritance using abstract
+//import inheritance_using_abstract_example.Doc
+//import inheritance_using_abstract_example.Eng
+//import inheritance_using_abstract_example.Person
+//
+//fun main() {
+//    val users: List<Person> = listOf(
+//        Eng(field = "Software", age = 22, firstName = "mourad"),
+//        Doc(speciality = "Dental", age = 22, firstName = "ashraf"),
+//    )
+//    for (user in users) {
+//        user.lastName = "dayef"
+//        println("----------------------------------------------------------------")
+//        println(user.name)
+//        println("Is adult: ${user.isAdult}")
+//        println(user.work())
+//        println(user.introduce())
+//    }
+//    println("----------------------------------------------------------------")
+//}
