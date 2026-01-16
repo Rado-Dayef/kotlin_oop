@@ -69,3 +69,40 @@
 //    }
 //    println("----------------------------------------------------------------")
 //}
+//
+// ToDo: Uncomment the code below to test the enum class
+//import enum_class.Month
+//
+//fun main() {
+//    val month: Month = selectMonth()
+//    println("${month.name}: ${month.title} - ${month.subTitle}\nDescription: ${month.description}")
+//}
+//
+//fun selectMonth(): Month {
+//    while (true) {
+//        print("Enter month number: ")
+//        val monthNumber = readln().trim().toIntOrNull()
+//
+//        val month = when (monthNumber) {
+//            1 -> Month.JAN
+//            2 -> Month.FEB
+//            3 -> Month.MAR
+//            4 -> Month.APR
+//            5 -> Month.MAY
+//            6 -> Month.JUN
+//            7 -> Month.JUL
+//            8 -> Month.AUG
+//            9 -> Month.SEP
+//            10 -> Month.OCT
+//            11 -> Month.NOV
+//            12 -> Month.DEC
+//            else -> null
+//        }
+//
+//        if (month != null) {
+//            return month
+//        }
+//
+//        println("Invalid month number, please enter a number between 1 and 12")
+//    }
+//}
