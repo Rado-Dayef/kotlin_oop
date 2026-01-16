@@ -1,4 +1,4 @@
-/// ToDo: Uncomment the code below to test the data class
+// ToDo: Uncomment the code below to test the data class
 //import data_class_example.User
 //
 //fun main() {
