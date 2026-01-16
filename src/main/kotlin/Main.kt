@@ -71,7 +71,7 @@
 //}
 //
 // ToDo: Uncomment the code below to test the enum class
-//import enum_class.Month
+//import enum_class_example.Month
 //
 //fun main() {
 //    val month: Month = selectMonth()

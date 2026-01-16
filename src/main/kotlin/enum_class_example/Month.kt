@@ -1,4 +1,4 @@
-package enum_class
+package enum_class_example
 
 enum class Month(val title: String, val subTitle: String, val description: String) {
     JUL(
